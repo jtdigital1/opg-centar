@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-montserrat; /* primjenjuje Montserrat kao globalni font */
+}
+
+/*
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Text 
+.section_title_white {
+  font-size: 52px;
+  font-weight: 600;
+  color: white;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+.section_title_black {
+  font-size: 52px;
+  font-weight: 600;
+  color: #091C2A;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+.paragraph_light {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 138%;
+}
+
+.paragraph_black {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 138%;
+}
+
+
+.primary_button {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #49BA48;
+  height: 50px;
+  padding: 0 28px;
+  border-radius: 100vmax;
+}
+
+
+.main_wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.vertical_padding {
+  padding: 120px 0;
+}
+
+
+.section_title {
+  max-width: 628px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section_title h1 {
+  margin-bottom: 20px;
+}
+
+*/
