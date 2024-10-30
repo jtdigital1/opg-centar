@@ -1,7 +1,7 @@
 <template>
   <section class="bg-slate-900 py-120px">
     <div class="max-w-[1280px] mx-auto px-12">
-      <div class="grid grid-cols-2 items-center gap-16">
+      <div class="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div>
           <h1 class="text-5xl font-semibold text-white pb-6">Lorem Ipsum is simply dummy text of the printing and.</h1>
           <p class="text-base text-white opacity-70 pb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>

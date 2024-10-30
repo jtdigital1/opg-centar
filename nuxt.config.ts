@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   app: {
     head: {
       link: [
@@ -11,10 +12,14 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   css: [
     '~/assets/css/main.css'
   ],
+
   modules: [
     '@nuxt/ui',
   ],
+
+  compatibilityDate: '2024-10-30',
 })

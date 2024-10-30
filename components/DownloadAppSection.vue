@@ -1,35 +1,30 @@
 <template>
-  <section class="download_app_section">
-    <div class="main_wrapper">
-      <div class="vertical_padding">
-        <div class="download_app_wrapper">
-          <div class="download_app_block_left">
-            <h1 class="section_title_black">Lorem Ipsum is simply dummy text of the printing and.</h1>
-            <p class="paragraph_black">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+  <section class="py-120px">
+    <div class="max-w-[1280px] mx-auto px-12">
+      <div class="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
+        <div class="">
+          <h1 class="text-5xl font-semibold text-slate-900 pb-6">Lorem Ipsum is simply dummy text of the printing and.</h1>
+          <p class="text-base text-slate-900 opacity-70 pb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
+          
+          <div class="flex gap-6">
+            <a href="#" class="flex gap-2 items-center bg-green-500 py-3 px-8 rounded-full">
+              <UIcon name="teenyicons:apple-solid" />
+              <span class="text-slate-900 font-semibold text-white">Apple App Store</span>
+              <UIcon name="material-symbols-light:arrow-forward-rounded text-slate-900" />
+            </a>  
+            <a href="#" class="flex gap-2 items-center bg-green-500 py-3 px-8 rounded-full">
+              <UIcon name="formkit:google" />
+              <span class="text-slate-900 font-semibold text-white">Apple App Store</span>
+              <UIcon name="material-symbols:arrow-forward" />
+            </a>  
           </div>
+        </div>
 
-          <div class="download_app_block_right">
-            <img src="~/assets/images/download_app/mobile_app.png" alt="">
-          </div>
+        <div class="flex justify-center">
+          <img src="~/assets/images/download_app/mobile_app.png" alt="">
         </div>
       </div>
     </div>
+    
   </section>
 </template>
-
-<style>
-  .download_app_wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-  }
-
-  .download_app_block_left h1 {
-    margin-bottom: 20px;
-  }
-
-  .download_app_block_right {
-    display: flex;
-    justify-content: center;
-  }
-</style>
