@@ -12,7 +12,7 @@
 
   import { defineAsyncComponent } from 'vue';
 
-  const components = ['NavMenu', 'HeroSection', 'CategorySection', 'DownloadAppSection'];
+  const components = ['NavMenu', 'HeroSection', 'CategorySection', 'DownloadAppSection', 'Footer'];
 
   const resolveComponent = (name) => {
     return defineAsyncComponent(() => import(`~/components/${name}.vue`));
