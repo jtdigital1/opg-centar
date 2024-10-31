@@ -1,15 +1,23 @@
 <template>
   <div>
-    <NavMenu />
-    <HeroSection />
-    <CategorySection />
-    <DownloadAppSection />
+    <component
+      v-for="(comp, index) in components"
+      :is="resolveComponent(comp)"
+      :key="index"
+    />
   </div>
 </template>
 
 <script setup>
-  import NavMenu from '~/components/NavMenu.vue';
-  import HeroSection from '~/components/HeroSection.vue';
-  import CategorySection from '~/components/CategorySection.vue';
-  import DownloadAppSection from '~/components/DownloadAppSection.vue';
+
+  import { defineAsyncComponent } from 'vue';
+
+  const components = ['NavMenu', 'HeroSection', 'CategorySection', 'DownloadAppSection'];
+
+  const resolveComponent = (name) => {
+    return defineAsyncComponent(() => import(`~/components/${name}.vue`));
+  };
+  
 </script>
+
+

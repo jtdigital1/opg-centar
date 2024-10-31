@@ -13,7 +13,9 @@ export default {
         montserrat : ['Montserrat', 'sans-serif'],
       },
       colors: {
-        primary: '#ffffff'
+        darkBlue: '#091C2A',
+        lightBlue: '#B5BBBF',
+        green: '#83BD32',
       },
       spacing: {
         '120px': '120px',

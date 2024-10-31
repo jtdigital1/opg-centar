@@ -7,15 +7,16 @@
           <p class="text-base text-slate-900 opacity-70 pb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.</p>
           
           <div class="flex gap-6">
-            <a href="#" class="flex gap-2 items-center bg-green-500 py-3 px-8 rounded-full">
-              <UIcon name="teenyicons:apple-solid" />
+            <a href="#" class="flex gap-2 items-center bg-green py-3 px-8 rounded-full">
+              <UIcon name="teenyicons:apple-solid" class="text-white" />
               <span class="text-slate-900 font-semibold text-white">Apple App Store</span>
-              <UIcon name="material-symbols-light:arrow-forward-rounded text-slate-900" />
-            </a>  
-            <a href="#" class="flex gap-2 items-center bg-green-500 py-3 px-8 rounded-full">
-              <UIcon name="formkit:google" />
-              <span class="text-slate-900 font-semibold text-white">Apple App Store</span>
-              <UIcon name="material-symbols:arrow-forward" />
+              <UIcon name="material-symbols:arrow-forward" class="text-white text-lg"/>
+            </a>
+
+            <a href="#" class="flex gap-2 items-center bg-green py-3 px-8 rounded-full">
+              <UIcon name="formkit:google" class="text-white" />
+              <span class="text-slate-900 font-semibold text-white">Google Play</span>
+              <UIcon name="material-symbols:arrow-forward" class="text-white text-lg"/>
             </a>  
           </div>
         </div>
@@ -25,6 +26,5 @@
         </div>
       </div>
     </div>
-    
   </section>
 </template>
